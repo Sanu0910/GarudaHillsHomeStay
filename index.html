@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Garuda Hills Homestay · Pothamedu, Munnar</title>
+  <meta name="description" content="A family-run homestay above the clouds in Pothamedu, Munnar. Tea-garden views, homemade breakfast, and scooty rentals to explore Munnar at your own pace.">
+  <meta name="theme-color" content="#0b0f0d">
+  <meta property="og:title" content="Garuda Hills Homestay · Munnar">
+  <meta property="og:description" content="Wake up above the clouds. Rooms with tea-garden views and scooty rentals in Pothamedu, Munnar.">
+  <meta property="og:image" content="assets/photos/hero.jpg">
+  <link rel="preload" as="image" href="assets/photos/hero.jpg" imagesrcset="assets/photos/hero-sm.jpg 1200w, assets/photos/hero.jpg 2400w" imagesizes="100vw">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Garuda Hills Homestay",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kavumprayil House, Pothamedu",
+      "addressLocality": "Munnar",
+      "addressRegion": "Kerala",
+      "postalCode": "685612",
+      "addressCountry": "IN"
+    },
+    "image": "assets/photos/hero.jpg",
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Free parking", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Scooty rental", "value": true}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ───────── Navigation ───────── -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand" aria-label="Garuda Hills home">
+        <svg class="nav__logo" viewBox="0 0 32 32" aria-hidden="true"><path d="M2 24 L11 12 L16 18 L21 9 L30 24 Z" fill="currentColor"/><circle cx="24" cy="7" r="2.2" fill="currentColor"/></svg>
+        <span>Garuda Hills</span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#stay">Stay</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#ride">Scooty Rental</a>
+        <a href="#explore">Explore</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <a href="#book" class="btn btn--sm btn--primary nav__cta">Book</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ───────── Hero (scroll-pinned, cinematic zoom) ───────── -->
+    <section class="hero" id="hero">
+      <div class="hero__sticky">
+        <div class="hero__media">
+          <img src="assets/photos/hero.jpg" srcset="assets/photos/hero-sm.jpg 1200w, assets/photos/hero.jpg 2400w" sizes="100vw"
+               alt="Dusk over Pothamedu, Munnar: tea-covered hills, a winding road of lights and mist settling in the valley" class="hero__img">
+          <div class="hero__shade"></div>
+        </div>
+        <div class="hero__copy">
+          <p class="eyebrow hero__eyebrow">Pothamedu · Munnar · Kerala</p>
+          <h1 class="hero__title">
+            <span class="line"><span>Above the clouds.</span></span>
+            <span class="line"><span>Garuda Hills.</span></span>
+          </h1>
+          <p class="hero__sub">A family homestay where the tea gardens roll into the mist — and a scooty waits at the gate.</p>
+          <div class="hero__actions">
+            <a href="#book" class="btn btn--primary">Plan your stay</a>
+            <a href="#ride" class="btn btn--ghost">Rent a scooty <span aria-hidden="true">›</span></a>
+          </div>
+        </div>
+        <div class="hero__scroll" aria-hidden="true"><span></span></div>
+      </div>
+    </section>
+
+    <!-- ───────── Manifesto (word-by-word scroll reveal) ───────── -->
+    <section class="manifesto" id="stay">
+      <p class="manifesto__text" data-words>
+        Every evening, the valley below Pothamedu fills with cloud. The lights of Munnar flicker on one by one. The road traces a ribbon of gold along the hillside. You watch it all from the porch, with a cup of hill-grown tea, at a home that has been waiting for you.
+      </p>
+    </section>
+
+    <!-- ───────── Highlights ───────── -->
+    <section class="highlights section">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Why guests stay</p>
+          <h2 class="section__title">Small home.<br><span class="muted">Big views.</span></h2>
+        </header>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M3 18 9 9l4 5 3-4 5 8z"/></svg></div>
+            <h3>Tea-garden views</h3>
+            <p>Rooms look out over tea and cardamom estates, the Pothamedu viewpoint and the river valley below.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M5 11h14a0 0 0 0 1 0 0 6 6 0 0 1-6 6h-2a6 6 0 0 1-6-6zM19 12h1.5a2 2 0 0 1 0 4H18M8 4c0 1.5 1 1.5 1 3M12 3c0 1.5 1 1.5 1 3"/></svg></div>
+            <h3>Homemade breakfast</h3>
+            <p>Fresh vegetarian Kerala breakfast, cooked in the family kitchen. Ask your host what's on the stove.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M6 17h6l3-7h3M9 10h4"/></svg></div>
+            <h3>Scooty at the gate</h3>
+            <p>Rent a scooty straight from your host and ride Munnar's hill roads on your own schedule.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M2 9a15 15 0 0 1 20 0M5.5 12.5a10 10 0 0 1 13 0M9 16a5 5 0 0 1 6 0"/><circle cx="12" cy="19.5" r="1"/></svg></div>
+            <h3>Wi-Fi &amp; free parking</h3>
+            <p>Stay connected and park on site. Quiet, safe and only minutes from Munnar town.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Scale-up feature (Apple-style image expand) ───────── -->
+    <section class="expand" id="expand">
+      <div class="expand__sticky">
+        <figure class="expand__frame">
+          <img src="assets/photos/lights.jpg" alt="Homes glowing on the hillside at dusk in Pothamedu" loading="lazy">
+        </figure>
+        <div class="expand__copy">
+          <p class="eyebrow">Golden hour, every hour</p>
+          <h2>Watch Munnar<br>light up.</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Rooms (horizontal snap) ───────── -->
+    <section class="rooms section" id="rooms">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Rooms</p>
+          <h2 class="section__title">Four rooms.<br><span class="muted">One family home.</span></h2>
+          <p class="section__lead">Private rooms with attached bathrooms inside the host family's house. Simple, clean and quiet — made for people who come to Munnar to be outdoors.</p>
+        </header>
+      </div>
+      <div class="rail" id="roomRail" tabindex="0" aria-label="Rooms, scroll horizontally">
+        <article class="room">
+          <div class="room__img" style="--img:url(assets/photos/peak.jpg)"></div>
+          <div class="room__body">
+            <span class="tag">Room 1</span>
+            <h3>The Peak Room</h3>
+            <p>Wake to the ridge line catching first light above the estate.</p>
+            <ul class="room__feat"><li>Attached bath</li><li>Mountain view</li><li>Wi-Fi</li></ul>
+          </div>
+        </article>
+        <article class="room">
+          <div class="room__img" style="--img:url(assets/photos/tea.jpg)"></div>
+          <div class="room__body">
+            <span class="tag">Room 2</span>
+            <h3>The Tea Garden Room</h3>
+            <p>A cosy room for two, looking out across the plantation rows.</p>
+            <ul class="room__feat"><li>Sleeps 2</li><li>Attached bath</li><li>Garden view</li></ul>
+          </div>
+        </article>
+        <article class="room">
+          <div class="room__img" style="--img:url(assets/photos/valley.jpg)"></div>
+          <div class="room__body">
+            <span class="tag">Room 3</span>
+            <h3>The Mist Room</h3>
+            <p>Watch the clouds pour into the valley as evening comes in.</p>
+            <ul class="room__feat"><li>Attached bath</li><li>Valley view</li><li>Wi-Fi</li></ul>
+          </div>
+        </article>
+        <article class="room">
+          <div class="room__img" style="--img:url(assets/photos/road.jpg)"></div>
+          <div class="room__body">
+            <span class="tag">Room 4</span>
+            <h3>The Viewpoint Room</h3>
+            <p>Quiet and private, facing the viewpoint, cardamom gardens and the river.</p>
+            <ul class="room__feat"><li>Attached bath</li><li>Free parking</li><li>Breakfast</li></ul>
+          </div>
+        </article>
+      </div>
+      <div class="container rail__controls">
+        <button class="circle-btn" data-rail="-1" aria-label="Previous room">‹</button>
+        <button class="circle-btn" data-rail="1" aria-label="Next room">›</button>
+      </div>
+    </section>
+
+    <!-- ───────── Scooty rental (scroll-driven ride) ───────── -->
+    <section class="ride" id="ride">
+      <div class="ride__sticky">
+        <div class="container ride__grid">
+          <div class="ride__copy">
+            <p class="eyebrow eyebrow--accent">Scooty rental by Garuda Hills</p>
+            <h2>The hills are<br>better on two wheels.</h2>
+            <p class="ride__lead">Skip the taxi queues. Pick up a scooty from your host and follow the tea-estate roads wherever they lead — Mattupetty, Top Station, or just the next bend.</p>
+            <ul class="ride__list">
+              <li><b>Pick up at the homestay</b><span>No running around town for a rental.</span></li>
+              <li><b>Helmets included</b><span>Ask your host for two if you're riding pillion.</span></li>
+              <li><b>Daily rentals</b><span>Rates depend on the season — message us for today's price.</span></li>
+              <li><b>Local route tips</b><span>Your host knows which roads are best after the rain.</span></li>
+            </ul>
+            <a href="#book" class="btn btn--accent" data-scooty>Reserve a scooty</a>
+            <p class="fine">Valid two-wheeler driving licence required. Fuel not included.</p>
+          </div>
+          <div class="ride__stage" aria-hidden="true">
+            <svg class="ride__road" viewBox="0 0 400 520" preserveAspectRatio="xMidYMid meet">
+              <defs>
+                <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f3b2a"/><stop offset="1" stop-color="#0d1a12"/></linearGradient>
+              </defs>
+              <path d="M0 140 L70 70 L130 120 L210 30 L290 110 L340 60 L400 120 L400 520 L0 520Z" fill="url(#hill)" opacity=".55"/>
+              <path id="roadPath" d="M40 500 C 360 470, 360 380, 200 350 S 40 260, 200 220 S 380 140, 250 90" fill="none" stroke="#2b2f2c" stroke-width="26" stroke-linecap="round"/>
+              <path class="ride__trail" d="M40 500 C 360 470, 360 380, 200 350 S 40 260, 200 220 S 380 140, 250 90" fill="none" stroke="url(#trailGrad)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 1"/>
+              <linearGradient id="trailGrad" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ffb36b"/><stop offset="1" stop-color="#ff7a59"/></linearGradient>
+              <g id="scooty">
+                <g transform="scale(1.6) translate(-22 -22)">
+                  <circle cx="8" cy="34" r="7" fill="#111" stroke="#ffb36b" stroke-width="2"/>
+                  <circle cx="36" cy="34" r="7" fill="#111" stroke="#ffb36b" stroke-width="2"/>
+                  <path d="M8 34 L14 22 H28 L36 34" fill="none" stroke="#f5f5f7" stroke-width="3" stroke-linejoin="round"/>
+                  <path d="M12 22 H30 Q32 16 26 16 H16 Q10 16 12 22Z" fill="#ff7a59"/>
+                  <path d="M30 22 L34 8 H38" fill="none" stroke="#f5f5f7" stroke-width="2.5" stroke-linecap="round"/>
+                  <circle cx="38.5" cy="10" r="2" fill="#fff6c9"/>
+                </g>
+              </g>
+            </svg>
+            <div class="ride__odo"><span id="odo">0.0</span> km</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Explore (distances) ───────── -->
+    <section class="explore section" id="explore">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Explore by scooty</p>
+          <h2 class="section__title">Munnar,<br><span class="muted">within reach.</span></h2>
+        </header>
+        <ol class="spots">
+          <li class="spot reveal"><span class="spot__km" data-count="0.4">0.4</span><span class="spot__unit">km</span><h3>Pothamedu Viewpoint</h3><p>A five-minute walk. Best at sunrise.</p></li>
+          <li class="spot reveal"><span class="spot__km" data-count="3">3</span><span class="spot__unit">km</span><h3>Munnar Town</h3><p>Markets, cafés and the tea museum.</p></li>
+          <li class="spot reveal"><span class="spot__km" data-count="4.5">4.5</span><span class="spot__unit">km</span><h3>Wonder Valley</h3><p>Gardens and a quick family stop.</p></li>
+          <li class="spot reveal"><span class="spot__km" data-count="9">9</span><span class="spot__unit">km</span><h3>Attukad Waterfalls</h3><p>Fullest after the monsoon.</p></li>
+          <li class="spot reveal"><span class="spot__km" data-count="13">13</span><span class="spot__unit">km</span><h3>Mattupetty Dam</h3><p>Lakeside ride through the estates.</p></li>
+          <li class="spot reveal"><span class="spot__km" data-count="15">15</span><span class="spot__unit">km</span><h3>Eravikulam National Park</h3><p>Home of the Nilgiri tahr.</p></li>
+          <li class="spot reveal"><span class="spot__km" data-count="32">32</span><span class="spot__unit">km</span><h3>Top Station</h3><p>The classic sea-of-clouds ride.</p></li>
+          <li class="spot spot--cta reveal"><h3>Ride them all.</h3><p>One scooty, your own pace.</p><a href="#book" class="btn btn--accent btn--sm" data-scooty>Reserve a scooty</a></li>
+        </ol>
+        <p class="fine">Distances are approximate road distances from the homestay.</p>
+      </div>
+    </section>
+
+    <!-- ───────── Rating band ───────── -->
+    <section class="rating section">
+      <div class="container rating__inner reveal">
+        <div class="rating__score"><span data-count="4.7">4.7</span><small>/5</small></div>
+        <div class="rating__stars" aria-label="4.7 out of 5 stars">★★★★★</div>
+        <blockquote class="rating__quote">“Lovely hosts, a homemade breakfast and a view you won't forget.”</blockquote>
+        <p class="fine">Based on 43 guest ratings on Justdial.</p>
+      </div>
+    </section>
+
+    <!-- ───────── Gallery ───────── -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Gallery</p>
+          <h2 class="section__title">From the porch.</h2>
+        </header>
+        <div class="masonry">
+          <button class="tile tile--wide reveal" data-full="assets/photos/hero.jpg"><img src="assets/photos/hero-sm.jpg" alt="Panorama of Pothamedu at dusk" loading="lazy"></button>
+          <button class="tile reveal" data-full="assets/photos/lights.jpg"><img src="assets/photos/lights.jpg" alt="Resort lights on the hillside" loading="lazy"></button>
+          <button class="tile reveal" data-full="assets/photos/peak.jpg"><img src="assets/photos/peak.jpg" alt="The mountain ridge above the estate" loading="lazy"></button>
+          <button class="tile tile--wide reveal" data-full="assets/photos/sky.jpg"><img src="assets/photos/sky.jpg" alt="Pink sunset clouds over the Western Ghats" loading="lazy"></button>
+          <button class="tile reveal" data-full="assets/photos/tea.jpg"><img src="assets/photos/tea.jpg" alt="Tea plantation rows" loading="lazy"></button>
+          <button class="tile reveal" data-full="assets/photos/valley.jpg"><img src="assets/photos/valley.jpg" alt="Mist filling the valley" loading="lazy"></button>
+          <button class="tile tile--wide reveal" data-full="assets/photos/road.jpg"><img src="assets/photos/road.jpg" alt="The winding hill road lit at night" loading="lazy"></button>
+        </div>
+      </div>
+      <dialog class="lightbox" id="lightbox">
+        <img alt="">
+        <button class="lightbox__close" aria-label="Close">×</button>
+      </dialog>
+    </section>
+
+    <!-- ───────── Good to know ───────── -->
+    <section class="info section">
+      <div class="container info__grid">
+        <div class="reveal">
+          <p class="eyebrow">Good to know</p>
+          <h2 class="section__title">Before you<br><span class="muted">arrive.</span></h2>
+        </div>
+        <dl class="facts reveal">
+          <div><dt>Early check-in</dt><dd>Available until 11 am for ₹250 extra.</dd></div>
+          <div><dt>Breakfast</dt><dd>Homemade vegetarian breakfast — confirm when you book.</dd></div>
+          <div><dt>Getting here</dt><dd>Taxis are scarce in Pothamedu after dark. Tell us your arrival time, or let a scooty solve it.</dd></div>
+          <div><dt>Weather</dt><dd>Evenings get cool year-round. Pack a light jacket and rain gear in monsoon.</dd></div>
+          <div><dt>Also on</dt><dd>Airbnb, Agoda and Justdial.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ───────── Book / Contact ───────── -->
+    <section class="book section" id="book">
+      <div class="container book__grid">
+        <div class="reveal">
+          <p class="eyebrow eyebrow--accent">Book direct</p>
+          <h2 class="section__title">Your room<br>in the clouds.</h2>
+          <p class="section__lead">Send your dates on WhatsApp and the family will reply with availability and today's rates — for rooms and scooties.</p>
+        </div>
+        <form class="enquiry reveal" id="enquiry">
+          <div class="field-row">
+            <label class="field"><span>Check-in</span><input type="date" name="checkin" required></label>
+            <label class="field"><span>Check-out</span><input type="date" name="checkout" required></label>
+          </div>
+          <div class="field-row">
+            <label class="field"><span>Guests</span>
+              <select name="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option></select>
+            </label>
+            <label class="field"><span>Rooms</span>
+              <select name="rooms"><option selected>1</option><option>2</option><option>3</option><option>4</option></select>
+            </label>
+          </div>
+          <label class="field"><span>Your name</span><input type="text" name="name" autocomplete="name" required></label>
+          <fieldset class="toggle">
+            <legend>Scooty rental</legend>
+            <label><input type="radio" name="scooty" value="No" checked><span>Not needed</span></label>
+            <label><input type="radio" name="scooty" value="1 scooty"><span>1 scooty</span></label>
+            <label><input type="radio" name="scooty" value="2 scooties"><span>2 scooties</span></label>
+          </fieldset>
+          <button type="submit" class="btn btn--primary btn--block">Send on WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ───────── Visit / Map ───────── -->
+    <section class="visit" id="visit">
+      <div class="container visit__grid">
+        <div class="visit__copy reveal">
+          <p class="eyebrow">Find us</p>
+          <h2>Garuda Hills Homestay</h2>
+          <address>Kavumprayil House, Pothamedu<br>Munnar, Kerala 685612<br>India</address>
+          <div class="visit__actions">
+            <a class="btn btn--primary" href="https://maps.app.goo.gl/QvYUcjF24jxdhzGr8" target="_blank" rel="noopener">Open in Google Maps</a>
+            <a class="btn btn--ghost-dark" href="#" data-whatsapp>WhatsApp us <span aria-hidden="true">›</span></a>
+          </div>
+        </div>
+        <div class="visit__map reveal">
+          <iframe title="Map to Garuda Hills Homestay, Pothamedu, Munnar" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  src="https://maps.google.com/maps?q=Garuda%20Hills%20Home%20Stay%2C%20Pothamedu%2C%20Munnar&z=14&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Garuda Hills Homestay · Pothamedu, Munnar</span>
+      <span class="footer__links"><a href="#rooms">Rooms</a><a href="#ride">Scooty Rental</a><a href="#book">Book</a></span>
+    </div>
+  </footer>
+
+  <a href="#" class="fab" data-whatsapp aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3z"/></svg>
+  </a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
